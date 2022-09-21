@@ -2,7 +2,7 @@ import urllib, json
 from selenium import webdriver # pip install selenium for this package to work
 import time
 
-def look_for_new _video() :
+def look_for_new_video() :
   api key = "whatever your api key is get it here: https://console.developers.google.com"
   channel_id="UCWr0mx597DnSGLFk1WfvSkQ"
  
@@ -30,7 +30,7 @@ def look_for_new _video() :
               
 try:
   while True:
-    look_ for new video()
+    look_for_new_video()
      time.sleep(10)
               
 except KeyboardInterrupt:
